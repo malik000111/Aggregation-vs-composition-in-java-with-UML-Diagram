@@ -1,0 +1,8 @@
+
+This project is basically to use Java to organize a hospital's structure. I made it using a step-down approach, where big parts contain smaller parts.
+How I Built It
+The Structure:Firstly , I created five main classes that are Hospital, Department, Room, MedicalEquipment, and Part.Here hospital class act as main or top level entity that hold everything together then
+The Links: I used ArrayLists so that one Hospital can hold many Departments, and one piece of Equipment can hold many Parts.afterwards
+The Logic of doing that is simple because Most connections are Composition. This means if a Department is removed, its Rooms are removed too, because a Room cannot exist without a Department.
+There is a  Exception here  that if Medical Equipment is connected via Aggregation. This is because an MRI machine can be moved to a different department or sold; it doesn't "die" just because one department closes.
+THE main goal of this project is to build a HOSPITAL Management System using java. AND MAKE real world RELATIONSHIP between different parts of medical facility using OOP.
